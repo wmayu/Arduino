@@ -2,8 +2,8 @@
 #include <Ethernet.h>
 #include <Stewitter.h>
 
-byte mac[] = { 0xA8, 0xA61, 0x0A, 0xAE, 0x75, 0x33 };//MACアドレス
-Stewitter twitter("0b3601d03fd0c1a5b8ae8c6711629d86");//Twiterのトークン
+byte mac[] = { 0x--, 0x--, 0x--, 0x--, 0x--, 0x-- };//MACアドレス
+Stewitter twitter("your token");//Twiterのトークン
 
 String last_msg;//1番最後にメンションされたツイート
 String second_msg;//2番目に最後にメンションされたツイート
