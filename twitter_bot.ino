@@ -18,8 +18,6 @@ String c_hello("@arduinoprojec16  hello");
 String c_tempe("arduinoprojec16|@arduinoprojec16  気温は？");
 String c_help("@arduinoprojec16  help");
 
-unsigned long last_time = millis();
-
 void setup() {
   Serial.begin(9600);//9600bpsでシリアルポートを開く
   Ethernet.begin(mac);//MACアドレスの設定
