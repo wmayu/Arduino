@@ -14,9 +14,9 @@ String tweet_msg;//tweetする内容
 char* tweet_ms;
 boolean tweet;//ツイートするかどうか
 
-String c_hello("@arduinoprojec16  hello");
-String c_tempe("arduinoprojec16|@arduinoprojec16  気温は？");
-String c_help("@arduinoprojec16  help");
+String c_hello("@xxxxxx  hello");
+String c_tempe("xxxxxx|@xxxxxx  気温は？");
+String c_help("@xxxxxx  help");
 
 void setup() {
   Serial.begin(9600);//9600bpsでシリアルポートを開く
