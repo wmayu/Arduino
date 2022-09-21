@@ -9,4 +9,5 @@ Arduinoを用いたTwitterbotの作成
 
 StewGate U
 
+参考にしたサイト
 https://stewgate-u.appspot.com/
